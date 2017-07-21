@@ -5,7 +5,6 @@ export default function(balancingData){
 	var thePromise = $.ajax({
 		method: "POST",
 		url: "http://www.caseytm.com:3030/weighted-results",
-		data: balancingData
 	});
 	return {
 		type: "balancing",

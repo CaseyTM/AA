@@ -4,7 +4,11 @@ export default function(registerData){
 	console.log("test");
 	var thePromise = $.ajax({
 		method: "POST",
+
 		url: "http://www.caseytm.com:3030/register",
+
+		url: "http://www.elizabethgulsby.com:3030/register",
+
 		data: registerData
 	});
 	return {

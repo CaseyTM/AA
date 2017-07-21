@@ -4,7 +4,11 @@ export default function(favoriteData) {
 	console.log(favoriteData)
     var thePromise = $.ajax({
         method: "POST",
+
         url: "http://www.caseytm.com:3030/display",
+
+        url: "http://www.elizabethgulsby.com:3030/display",
+
         data: favoriteData
     });
     return {
